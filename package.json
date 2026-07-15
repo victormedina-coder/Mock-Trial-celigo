@@ -1,0 +1,20 @@
+{
+  "name": "celigo-mock-inventory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Endpoint mock que simula la futura API de inventario del B2B, para el trial de Celigo. Solo RECIBE datos (no toca NetSuite ni ningún otro sistema).",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "fastify": "^5.2.0",
+    "tsx": "^4.19.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
+  }
+}
